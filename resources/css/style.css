@@ -10,15 +10,32 @@ div {
   display: block;
 }
 
+body {
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 69px;
+  width: 100%;
   position: fixed;
+  top: 0;
   border-bottom: 1pz solid seashell;
+  background-color: black;
 }
 
 header img {
   height: 50px;
+  padding: 0 10px;
+}
+
+nav a {
   padding: 10px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
 }
