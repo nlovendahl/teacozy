@@ -12,6 +12,8 @@ div {
 
 body {
   margin: 0 auto;
+  position: relative;
+  top: 69px;
 }
 
 header {
@@ -24,6 +26,7 @@ header {
   top: 0;
   border-bottom: 1pz solid seashell;
   background-color: black;
+  z-index: 1;
 }
 
 header img {
@@ -38,4 +41,25 @@ nav a {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+}
+
+h2, h4 {
+  margin: 0 auto;
+  padding: 10px 0;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  margin: 0 auto;
+  height: 700px;
+  width: 1200px;
+}
+
+#featured {
 }
