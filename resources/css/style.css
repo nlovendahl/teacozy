@@ -8,12 +8,15 @@ html {
 
 div {
   display: block;
+  border: 1px white solid;
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
   position: relative;
   top: 69px;
+  text-align: center;
+
 }
 
 header {
@@ -48,7 +51,6 @@ h2, h4 {
   padding: 10px 0;
   background-color: black;
   width: 100%;
-  text-align: center;
 }
 
 #mission {
@@ -62,13 +64,12 @@ h2, h4 {
 }
 
 .icon {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 1000px;
-  margin: 0 auto;
 }
 
 figure img {
@@ -87,4 +88,10 @@ figcaption {
   text-align: center;
   font-weight: bold;
   padding: 10px;
+}
+
+#locations, #locations h2 {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg')
+  height: 500px;
+  width: auto;
 }
