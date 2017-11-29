@@ -61,5 +61,30 @@ h2, h4 {
   width: 1200px;
 }
 
-#featured {
+.icon {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+figure img {
+  margin: 0 auto;
+  width: 300px;
+  height: 200px;
+}
+
+figure {
+  padding: 5px;
+  margin: 0;
+}
+
+figcaption {
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
 }
