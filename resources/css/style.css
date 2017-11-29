@@ -9,3 +9,14 @@ html {
 div {
   display: block;
 }
+
+header {
+  height: 69px;
+  position: fixed;
+  border-bottom: 1pz solid seashell;
+}
+
+header img {
+  height: 50px;
+  padding: 10px;
+}
