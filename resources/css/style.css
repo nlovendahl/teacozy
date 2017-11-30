@@ -9,14 +9,15 @@ html {
 div {
   display: block;
   border: 1px white solid;
+  margin: auto;
 }
 
 body {
-  margin: 0;
   position: relative;
   top: 69px;
   text-align: center;
-
+  padding: 0;
+  margin: 0;
 }
 
 header {
@@ -46,7 +47,7 @@ nav a {
   opacity: 0.9;
 }
 
-h2, h4 {
+h2.black, h4 {
   margin: 0 auto;
   padding: 10px 0;
   background-color: black;
@@ -63,8 +64,16 @@ h2, h4 {
   width: 1200px;
 }
 
+#featured {
+  display: flex:
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
 .icon {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
@@ -90,8 +99,35 @@ figcaption {
   padding: 10px;
 }
 
-#locations, #locations h2 {
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg')
+#locations {
+  padding-top: 60px;
   height: 500px;
-  width: auto;
+  width: 1200px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+}
+
+#locations h2 {
+  padding: 15px;
+  margin: 0;
+  width: 1200px;
+}
+
+.addresses {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+.box {
+  background-color: black;
+  width: 300px;
+  height: auto;
+  margin: 0 20px;
+}
+
+h3, p {
+  margin: 0 auto;
+  padding: 20px;
 }
