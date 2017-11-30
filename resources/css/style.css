@@ -63,6 +63,7 @@ h2.black, h4 {
   justify-content: center;
   flex-wrap: wrap;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-size: cover;
   margin: 0 auto;
   padding-top: 69px;
   height: 700px;
