@@ -131,6 +131,7 @@ figcaption {
   width: 300px;
   height: auto;
   margin: 0 20px;
+  padding-bottom: 15px;
 }
 
 h3, p {
