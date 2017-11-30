@@ -8,7 +8,6 @@ html {
 
 div {
   display: block;
-  border: 1px white solid;
   margin: auto;
 }
 
@@ -46,7 +45,7 @@ nav a {
 }
 
 h2.black, h4 {
-  margin: 0 auto;
+  margin: 0;
   padding: 10px 0;
   background-color: black;
   width: 100%;
