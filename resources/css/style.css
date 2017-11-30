@@ -122,11 +122,12 @@ figcaption {
 .addresses {
   display: inline-flex;
   flex-direction: row;
-  justify-content: center
+  justify-content: center;
 }
 
 .box {
   background-color: black;
+  opacity: 1;
   width: 300px;
   height: auto;
   margin: 0 20px;
@@ -134,7 +135,7 @@ figcaption {
 
 h3, p {
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 footer {
